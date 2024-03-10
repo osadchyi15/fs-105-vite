@@ -1,13 +1,49 @@
-<header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+<header class="page-header">
+  <div class="container">
+    <nav class="navigation">
+      <!-- ========== Logo ========== -->
+      <a class="logo-link" href="./index.html"
+        >web<span class="studio">Studio</span>
+      </a>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+      <!-- ========== Navigation ========== -->
+      <!-- menu-button just for mobile version -->
+      <div class="open-menu">
+        <button class="open-menu-btn" type="button">
+          <svg class="open-menu-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#open-menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <!-- tablet + desktop -->
+      <ul class="menu-list">
+        <li class="menu-item">
+          <a class="menu-link current" href="#">Studio</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link" href="#">Portfolio</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link" href="#">Contacts</a>
+        </li>
+      </ul>
+
+      <!-- ========== Contacts ========== -->
+      <address class="address">
+        <ul class="address-menu">
+          <li class="address-item">
+            <a class="address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="address-item">
+            <a class="address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+    </nav>
+  </div>
 </header>
